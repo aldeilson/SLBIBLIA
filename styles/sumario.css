@@ -1,0 +1,26 @@
+.sumario h2 {
+  border: 3px solid #b37eb8;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.toque {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  color: #ffffff;
+}
+
+.sumario ul {
+  padding: 0px 25px;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.sumario.ativa ul {
+  height: fit-content;
+  opacity: 1;
+  padding: 24px 25px;
+}

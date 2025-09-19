@@ -1,0 +1,15 @@
+.subTitle {
+  margin: 20px 0;
+  font-size: 45px;
+  color: #ffffff;
+  text-align: center;
+  font-style: italic;
+  text-shadow: 2px 2px 4px #000000; 
+}
+
+.caption {
+  font-size: 32px;
+  color: #ffffff;
+  margin: 20px 0;
+  text-shadow: 2px 2px 4px #000000; 
+}

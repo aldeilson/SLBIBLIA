@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="/styles/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Train+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>App - Sorteio de Livros da Bíblia</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md fixed-top navbar-transparente">
+        <div class="container">
+          <a class="navbar-brand" href="#" id="logo">SLBÍBLIA</a>
+
+          <button
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu-principal"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="menu-principal">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="#">Início</a>
+              </li>
+
+              <li class="nav-item divisor"></li>
+
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="./pages/sumario.html"
+                  >Sumário</a
+                >
+              </li>
+
+              <li class="nav-item divisor"></li>
+
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="/pages/resumos.html"
+                  >Resumos</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container text-center" id="main">
+      <h1 class="title">Sorteio de Livros da Bíblia</h1>
+      <hr />
+      <br />
+
+      <div class="box">
+        <p class="fst-italic fw-bold fs-3">
+          Este aplicativo sorteia aleatoriamente um livro da Bíblia. É uma
+          maneira divertida de explorar os diferentes livros e suas histórias.
+        </p>
+
+        <p class="fst-italic fw-bold fs-3">
+          Aqui não estão os livros Deuterocanônicos, apenas os livros
+          reconhecidos pela maioria das tradições cristãs.
+        </p>
+
+        <p class="fst-italic fw-bold fs-3">
+          Clique no botão abaixo para sortear um livro da Bíblia. Cada vez que
+          você clicar, um novo livro será sorteado.
+        </p>
+
+        
+      </div>
+    </div>
+
+    <button id="sortear" onclick="sortearLivro()">Sortear Livro</button>
+    <div id="resultado"></div>
+
+    <footer id="footer" class="mt-5 mb-2">
+      <p>© 2025 SLBÍBLIA | Projeto educativo de sorteio de livros da Bíblia</p>
+      <p class="fst-italic">
+        “Lâmpada para os meus pés é a tua palavra e luz para o meu caminho.” –
+        Salmos 119:105
+      </p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
